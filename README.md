@@ -27,6 +27,8 @@ Ni por parte de la API ni por parte del Front-end se omite la lectura o edición
 - Nombre
 - Apellido
 - Documento ID
+- Dirección
+- Correo
 
 ## Requisitos para la aplicación
 
