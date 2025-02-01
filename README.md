@@ -22,18 +22,26 @@ Como dijimos, esta aplicación está conectada a una API de gestión, y también
 Ni por parte de la API ni por parte del Front-end se omite la lectura o edición de ninguno de estos campos.
 </p>
 
-## Pasos para la configuración de la base de datos
+## Requisitos para la aplicación
 
 <p>
-  1. Creamos una base de datos en el servidor local xampp. Esta base de datos se comprende de una tabla llamada "login" y la cual posee tres campos. El primer campo es el que tiene el código de cada registro, es de tipo entero, autoincremento y funciona como llave primaria.
+  1. se vende tener instalado Visual Studio Code en su versión más reciente, y adicional a esto, debe contar con lagunas, extensiones tales como Live Server, Prettier Scripts, entre otros
 </p>
 
 <p>
-  2. Como segundo paso, debemos descargar el archivo de conexión a la base de datos. Esto lo podemos hacer ingresando a la página: https://mvnrepository.com/artifact/mysql/mysql-connector-java
+  2. Se debe tener instalado de Nod.js versión 22, ya que esta es la que usamos.
 </p>
 
 <p>
-  3. Damos click en la versión más reciente y copiamos el código xml, luego nos dirigimos al archvi pom.xml y justo después de las etiquetas packaging damos enter y creamos una etiqueta llama <dependencies> y dentro de esta pegamos el codigo.
+  3. Contar con el IDE intellij idea, o algún otro IDE que pueda levantar nuestra API.
+</p>
+
+<p>
+  4. Si se cuenta NetBeans o Eclipse, estos ya deben tener instalado el paquete de Spring Boot.
+</p>
+
+<p>
+  5. Tener instalado Mysql workbench.
 </p>
 
 ```xml
