@@ -1,6 +1,17 @@
 # Api-Frontend-React
 
-Esta aplicación web es un front-end que consume una API rest de gestión de usuarios (la cual está desarrollada en Spring Boot y se encuentra dentro del repositorio). Esta aplicación está desarrollada con la librería React en su versión 19, y maneja dos módulos: uno de consulta de usuario y otro de modificación y creación de usuario, los cuales se muestran a continuación. 
+Esta aplicación web es un front-end que consume una API rest de gestión de usuarios (la cual está desarrollada en Spring Boot y se encuentra dentro del repositorio). Esta aplicación está desarrollada con la librería React en su versión 19, y maneja dos módulos: uno de consulta de usuario y otro de modificación y creación de usuario, los cuales se muestran a continuación.
+
+
+
+![Image](https://github.com/user-attachments/assets/62485c64-741f-43e5-bbb3-fea815e684a8)
+
+
+![Image](https://github.com/user-attachments/assets/60597062-f422-4040-9eaa-fb628b731ea3)
+
+
+
+![Image](https://github.com/user-attachments/assets/4e59c08d-63b8-4e85-85de-4828ac9584a0)
 
 ## Available Scripts
 
