@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import ListUsers from './components/ListUsers';
+import Header from './components/Header';
+import FooterComp from './components/FooterComp';
+import { BrowserRouter, Route, Routes } from 'react-router';
+import SaveUser from './components/SaveUser';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  return(
+    <div>
+      <BrowserRouter>
+        <Header/>
+        <div className='container'>
+          <Routes>
+            <Route exact path='/' element={<ListUsers/>}></Route>
+            <Route path='/users' element={<ListUsers/>}></Route>
+            <Route path='/save-user' element={<SaveUser/>}></Route>
+            <Route path='/update-user/:id' element={<SaveUser/>}></Route>
+          </Routes>
+        </div>
+      <FooterComp/>
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
 export default App;
