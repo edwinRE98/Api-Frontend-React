@@ -12,7 +12,14 @@ Esta aplicación web es un front-end que consume una API rest de gestión de usu
 ![Image](https://github.com/user-attachments/assets/4e59c08d-63b8-4e85-85de-4828ac9584a0)
 
 <p>
-Como dijimos esta aplicación está conectada a una API de gestion, y tmabien comprenden base de datos local, la cual posee los siguientes campos. El primer campo es el que tiene el código de cada registro, es de tipo entero, autoincremento y funciona como llave primaria.
+Como dijimos, esta aplicación está conectada a una API de gestión, y también comprenden una base de datos local, la cual posee los siguientes campos.
+- Nombre
+- Apellido
+- Documento ID
+- Dirección
+- Correo
+
+Ni por parte de la API ni por parte del Front-end se omite la lectura o edición de ninguno de estos campos.
 </p>
 
 ## Pasos para la configuración de la base de datos
