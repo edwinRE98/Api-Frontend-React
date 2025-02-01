@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Api-Frontend-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicación web es un front-end que consume una API rest de gestión de usuarios (la cual está desarrollada en Spring Boot y se encuentra dentro del repositorio). Esta aplicación está desarrollada con la librería React en su versión 19, y maneja dos módulos: uno de consulta de usuario y otro de modificación y creación de usuario, los cuales se muestran a continuación. 
 
 ## Available Scripts
 
