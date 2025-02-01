@@ -8,24 +8,11 @@ Esta aplicación web es un front-end que consume una API rest de gestión de usu
 ## Creación del nuevo usuario
 ![Image](https://github.com/user-attachments/assets/60597062-f422-4040-9eaa-fb628b731ea3)
 
-
-
+## Actualizacón del usuario
 ![Image](https://github.com/user-attachments/assets/4e59c08d-63b8-4e85-85de-4828ac9584a0)
 
-
-
-
-
-
-
-
-
-
-
-
-
 <p>
-La aplicación está conectada a una base de datos local. Esta base de datos se comprende de una tabla llamada "login", la cual posee tres campos. El primer campo es el que tiene el código de cada registro, es de tipo entero, autoincremento y funciona como llave primaria.
+Como dijimos esta aplicación está conectada a una API de gestion, y tmabien comprenden base de datos local, la cual posee los siguientes campos. El primer campo es el que tiene el código de cada registro, es de tipo entero, autoincremento y funciona como llave primaria.
 </p>
 
 ## Pasos para la configuración de la base de datos
