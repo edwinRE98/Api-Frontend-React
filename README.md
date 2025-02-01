@@ -24,9 +24,9 @@ Esta aplicación web es un front-end que consume una API rest de gestión de usu
 Ni por parte de la API ni por parte del Front-end se omite la lectura o edición de ninguno de estos campos.
 </p>
 
-- Tecnología Java aplicada: Maven
-- Servidor: Xampp
-- Java version "21.0.2" 2024-01-16 LTS
+- Nombre
+- Apellido
+- Documento ID
 
 ## Requisitos para la aplicación
 
