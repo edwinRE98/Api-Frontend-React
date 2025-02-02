@@ -49,20 +49,9 @@ Ni por parte de la API ni por parte del Front-end se omite la lectura o edición
   5. Tener instalado Mysql workbench.
 </p>
 
-```xml
-<dependencies>
-  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-  <dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.33</version>
-  </dependency>
-</dependencies>
-```
-<p>
-  Si observamos en el IDE ha descargado automáticamente el archivo que hará la conexión con la base de datos.
-</p>
+## Tecnologías usadas
+- Axios: para realizar solicitudes HTTP y gestionar respuesta.
 
-- Tecnología Java aplicada: Maven
-- Servidor: Xampp
-- Java version "21.0.2" 2024-01-16 LTS
+- React Router: nos permite gestionar el enrutamiento del lado del cliente.
+
+- Boostrap versión 4.
